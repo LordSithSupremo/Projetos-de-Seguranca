@@ -3,8 +3,8 @@ import time
 from scapy.all import Ether, IP, TCP, sendp
 
 #VARIÁVEIS CONSTANTES
-IP_ALVO = "<IP_DO_ALVO>" # Substitua pelo IP do alvo
-INTERFACE = "eth0" # Substitua pela interface de rede correta
+IP_ALVO = "1" # Substitua pelo IP do alvo
+INTERFACE = "0" # Substitua pela interface de rede correta
 NUM_PACOTES = 100
 DURACAO = 5  # segundos
 
